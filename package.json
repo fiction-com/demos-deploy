@@ -5,6 +5,9 @@
   "author": "Andrew Powers",
   "main": "src/index",
   "private": true,
+  "scripts": {
+    "heroku-postbuild": "yarn factor build"
+  },
   "factor": {
     "load": [
       {
